@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Twitter icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Twitter Clone</title>
+</head>
+
+<body>
+    <!-- sidebar starts -->
+
+    <div class="Sidebar">
+        <div class="Sidebar-header">
+            <div class="fab fa-twitter"></div>
+        </div>
+
+        <div class="sidebar-menu">
+
+            <div class="SidebarOption active">
+                <h2><i id="options" class="fa-solid fa-house"></i> Home</h2>
+            </div>
+
+            <div class="SidebarOption">
+                <h2><i id="options" class="fa-solid fa-magnifying-glass"></i> Explore</h2>
+            </div>
+
+            <div class="SidebarOption">
+                <h2><i id="options" class="fa-solid fa-bell"></i> Notifications</h2>
+            </div>
+
+            <div class="SidebarOption">
+                <h2><i id="options" class="fa-solid fa-envelope"></i> Messages</h2>
+            </div>
+
+            <div class="SidebarOption">
+                <h2><i id="options" class="fa-solid fa-hashtag"></i> Grok</h2>
+            </div>
+
+            <div class="SidebarOption">
+                <h2><i id="options" class="fa-solid fa-users"></i> Communities</h2>
+            </div>
+
+            <div class="SidebarOption">
+                <h2><i id="options" class="fa-solid fa-gem"></i> Premium</h2>
+            </div>
+
+            <div class="SidebarOption">
+                <h2><i id="options" class="fa-solid fa-user"></i> Profile</h2>
+            </div>
+
+            <div class="SidebarOption">
+                <h2><i id="options" class="fas fa-ellipsis-h"></i> More</h2>
+            </div>
+
+            <button class="Sidebar_tweet"> Post</button>
+        </div>
+    </div>
+
+    <!-- sidebar ends -->
+
+    <!-- feed starts -->
+
+    <div class="feed">
+        <div class="feed-header">
+            <div class="top" id="first">
+                <h2>For You</h2>
+            </div>
+            <div class="top" id="second">
+                <h2>Following</h2>
+            </div>
+
+        </div>
+
+        <!-- tweet box starts -->
+        <div class="tweet-box">
+
+            <div class="tweet-box-input">
+                <img src="profile-pic.jpeg" alt="profile pic">
+                <input type="text" placeholder="What's happening?">
+            </div>
+
+            <div class="tweet-box-footer">
+                <div class="tweet-box-icons">
+                    <i class="material-icons">photo</i>
+                    <i class="material-icons">gif</i>
+                    <i class="material-icons">poll</i>
+                    <i class="material-icons">schedule</i>
+                </div>
+
+                <button class="tweet-box-tweet">Post</button>
+            </div>
+        </div>
+        <!-- tweet box ends -->
+
+        <!-- post starts -->
+        <div class="post">
+            <div class="post-header">
+                <div class="post_avatar">
+                    <img src="profile-pic.jpeg" alt="" />
+                </div>
+                <div class="post-header-text">
+                    <h3>John Doe
+                        <span class="post_badge_special">
+                            <span class="material-icons post_badge">
+                                verified
+                            </span>
+                            @johndoe
+                        </span>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="post-body">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, sequi laudantium officiis
+                    consequuntur itaque vitae atque, minima perspiciatis praesentium odio animi rerum quis nisi
+                    dicta aliquid fugit quaerat quasi officia?</p>
+            </div>
+            <div class="post-image">
+                <img src="post1.jpeg" alt="post1_image">
+            </div>
+            <div class="post-footer">
+                <i class="material-icons">chat_bubble_outline</i>
+                <i class="material-icons">repeat</i>
+                <i class="material-icons">favorite_border</i>
+                <i class="material-icons">share</i>
+            </div>
+        </div>
+
+        <!-- post ends -->
+
+
+        <!-- post starts -->
+        <div class="post">
+            <div class="post-header">
+                <div class="post_avatar">
+                    <img src="profile-pic.jpeg" alt="" />
+                </div>
+                <div class="post-header-text">
+                    <h3>John Doe
+                        <span class="post_badge_special">
+                            <span class="material-icons post_badge">
+                                verified
+                            </span>
+                            @johndoe
+                        </span>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="post-body">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, sequi laudantium officiis
+                    consequuntur itaque vitae atque, minima perspiciatis praesentium odio animi rerum quis nisi
+                    dicta aliquid fugit quaerat quasi officia?</p>
+            </div>
+            <div class="post-image">
+                <img src="post1.jpeg" alt="post1_image">
+            </div>
+            <div class="post-footer">
+                <i class="material-icons">chat_bubble_outline</i>
+                <i class="material-icons">repeat</i>
+                <i class="material-icons">favorite_border</i>
+                <i class="material-icons">share</i>
+            </div>
+        </div>
+
+        <!-- post ends -->
+
+
+        <!-- post starts -->
+        <div class="post">
+            <div class="post-header">
+                <div class="post_avatar">
+                    <img src="profile-pic.jpeg" alt="" />
+                </div>
+                <div class="post-header-text">
+                    <h3>John Doe
+                        <span class="post_badge_special">
+                            <span class="material-icons post_badge">
+                                verified
+                            </span>
+                            @johndoe
+                        </span>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="post-body">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, sequi laudantium officiis
+                    consequuntur itaque vitae atque, minima perspiciatis praesentium odio animi rerum quis nisi
+                    dicta aliquid fugit quaerat quasi officia?</p>
+            </div>
+            <div class="post-image">
+                <img src="post1.jpeg" alt="post1_image">
+            </div>
+            <div class="post-footer">
+                <i class="material-icons">chat_bubble_outline</i>
+                <i class="material-icons">repeat</i>
+                <i class="material-icons">favorite_border</i>
+                <i class="material-icons">share</i>
+            </div>
+        </div>
+
+        <!-- post ends -->
+
+
+        <!-- post starts -->
+        <div class="post">
+            <div class="post-header">
+                <div class="post_avatar">
+                    <img src="profile-pic.jpeg" alt="" />
+                </div>
+                <div class="post-header-text">
+                    <h3>John Doe
+                        <span class="post_badge_special">
+                            <span class="material-icons post_badge">
+                                verified
+                            </span>
+                            @johndoe
+                        </span>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="post-body">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, sequi laudantium officiis
+                    consequuntur itaque vitae atque, minima perspiciatis praesentium odio animi rerum quis nisi
+                    dicta aliquid fugit quaerat quasi officia?</p>
+            </div>
+            <div class="post-image">
+                <img src="post1.jpeg" alt="post1_image">
+            </div>
+            <div class="post-footer">
+                <i class="material-icons">chat_bubble_outline</i>
+                <i class="material-icons">repeat</i>
+                <i class="material-icons">favorite_border</i>
+                <i class="material-icons">share</i>
+            </div>
+        </div>
+
+        <!-- post ends -->
+
+
+        <!-- post starts -->
+        <div class="post">
+            <div class="post-header">
+                <div class="post_avatar">
+                    <img src="profile-pic.jpeg" alt="" />
+                </div>
+                <div class="post-header-text">
+                    <h3>John Doe
+                        <span class="post_badge_special">
+                            <span class="material-icons post_badge">
+                                verified
+                            </span>
+                            @johndoe
+                        </span>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="post-body">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, sequi laudantium officiis
+                    consequuntur itaque vitae atque, minima perspiciatis praesentium odio animi rerum quis nisi
+                    dicta aliquid fugit quaerat quasi officia?</p>
+            </div>
+            <div class="post-image">
+                <img src="post1.jpeg" alt="post1_image">
+            </div>
+            <div class="post-footer">
+                <i class="material-icons">chat_bubble_outline</i>
+                <i class="material-icons">repeat</i>
+                <i class="material-icons">favorite_border</i>
+                <i class="material-icons">share</i>
+            </div>
+        </div>
+
+        <!-- post ends -->
+
+    </div>
+
+    <!-- feed ends -->
+
+    <!-- widgets starts -->
+
+    <div class="widgets">
+        <div class="widgets__input">
+            <span class="material-icons widgets__searchIcon"> search </span>
+            <input type="text" placeholder="Search Twitter" />
+        </div>
+
+        <div class="widgets__widgetContainer">
+            <h2>What's happening?</h2>
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">
+                    Sunsets don&#39;t get much better than this one over
+                    <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>.
+                    <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a>
+                    <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a>
+                    <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a>
+                </p>
+                &mdash; US Department of the Interior (@Interior)
+                <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+    <!-- widgets ends -->
+</body>
+
+</html>
